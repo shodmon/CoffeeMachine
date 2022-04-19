@@ -1,5 +1,5 @@
 # CoffeeMachine
-<<<<<<< HEADCoffee Machine >>>>>>>
+Coffee Machine
 
 
 Stage 2 was: program that calculates the amount of ingredients needed to make a certain amount of coffee
