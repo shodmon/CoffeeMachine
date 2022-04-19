@@ -1,10 +1,12 @@
 
 public class Storage {
 
-	static int water = 1000;
-	static int milk = 250;
-	static int coffeeBeans = 75;
-	static int disposableCups = 5;
+	static int water = 400;
+	static int milk = 540;
+	static int coffeeBeans = 120;
+	static int disposableCups = 9;
+	
+	static int money = 550;
 	
 	static int availableCupsOfCoffee = 0;
 }
