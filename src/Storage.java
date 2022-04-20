@@ -1,5 +1,5 @@
 
-public class Storage {
+class Storage {
 
 	static int water = 400;
 	static int milk = 540;
