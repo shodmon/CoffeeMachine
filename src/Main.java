@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 /**
- * @version 5.0
+ * @version 6.0
  * 
  * @author Shodmon Babakhanzoda
  */
@@ -17,17 +17,6 @@ class Main {
 		// TODO Auto-generated method stub
 
 		menu();
-
-//		System.out.println("Write how many cups of coffee you will need:");
-//		int reqCoffeeCups = scanner.nextInt();
-		// calculateIngredients(reqCoffeeCups);
-
-//		if (reqCoffeCups*200 == Storage.milk && reqCoffeCups*200 == Storage.milk && reqCoffeCups*200 == Storage.milk) {
-//			
-//		}
-
-//		calculate(Storage.water, Storage.milk, Storage.coffeeBeans, reqCoffeeCups);
-
 	}
 
 	static void menu() {
@@ -266,49 +255,5 @@ class Main {
 		System.out.println("I gave you $" + Storage.money + "\n");
 		Storage.money -= Storage.money;
 	}
-
-//
-//	static void calculateIngredients(int reqCoffeeCups) {
-//		int water, milk, cBeans;
-//		water = reqCoffeeCups * 200;
-//		milk = reqCoffeeCups * 50;
-//		cBeans = reqCoffeeCups * 15;
-//
-////		System.out.println("For " + reqCoffeeCups + " cups of coffee you will need:" + "\n" + water + " ml of water"
-////				+ "\n" + milk + " of milk" + "\n" + cBeans + " g of coffee beans");
-//	}
-//
-//	static void calculate(int waterStorage, int milkStorage, int coffeeBeansStorage, int reqCoffeeCups) {
-////		water = reqCoffeeCups * 200;
-////		milk = reqCoffeeCups * 50;
-////		cBeans = reqCoffeeCups * 15; 
-//
-//		int waterEnoughForACoffeCup = waterStorage / 200;
-//		int milkEnoughForACoffeCup = milkStorage / 50;
-//		int coffeeBeansEnoughForACoffeCup = coffeeBeansStorage / 15;
-//
-//		int numberOfIngredientsForSingleCup[] = { waterEnoughForACoffeCup, milkEnoughForACoffeCup,
-//				coffeeBeansEnoughForACoffeCup };
-//		Storage.availableCupsOfCoffee = numberOfIngredientsForSingleCup[0];
-//
-//		for (int ingredient : numberOfIngredientsForSingleCup) {
-//			if (ingredient < Storage.availableCupsOfCoffee) {
-//				Storage.availableCupsOfCoffee = ingredient;
-//			}
-//		}
-//
-////		System.out.println(waterEnoughForACoffeCup);
-////		System.out.println(milkEnoughForACoffeCup);
-////		System.out.println(coffeeBeansEnoughForACoffeCup);
-//
-//		if (Storage.availableCupsOfCoffee == reqCoffeeCups) {
-//			System.out.println("Yes, I can make that amount of coffee");
-//		} else if (Storage.availableCupsOfCoffee > reqCoffeeCups) {
-//			System.out.println("Yes, I can make that amount of coffee (and even + "
-//					+ (Storage.availableCupsOfCoffee - reqCoffeeCups) + " more than that)");
-//		} else
-//			System.out.println("No, I can make only " + Storage.availableCupsOfCoffee + " cup(s) of coffee");
-//
-//	}
-
+	
 }
