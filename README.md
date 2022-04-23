@@ -8,4 +8,4 @@ Stage 4: program that offers to buy one cup of coffee, to fill up the ingredient
 Stage 5: program that will work endlessly to make coffee for all interested persons until the shutdown signal is given.
 Stage 6: brushing up the code. Tidying it up.
 
-Topics: printing data; types and variables; comments; scanning the input; coding style conventions; arithmetic operations; parameters; logical operations; conditional statement; loops; switch statement; static keyword.
+Topics: printing data; package; methods; types and variables; comments; scanning the input; coding style conventions; arithmetic operations; parameters; logical operations; conditional statement; loops; switch statement; static keyword.
